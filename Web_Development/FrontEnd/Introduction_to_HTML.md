@@ -2,7 +2,7 @@
 
 # Introduction To HTML
 
-HTML stands for hyper text markup language
+HTML stands for hyper text markup language.
 
 It is used for creating web pages.
 
