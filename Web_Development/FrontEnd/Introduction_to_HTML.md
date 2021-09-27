@@ -1,18 +1,28 @@
-![](https://i.imgur.com/M7ZQ5fO.jpg)
+<p align="center"><img src="https://i.pinimg.com/736x/e9/d8/df/e9d8df65274f92e0c708de5a14622ed3.jpg" width="600px"></p><br><br>
 
-# Introduction To HTML
+<h1 align="center"> Introduction to HTML </h1>
 
-HTML stands for hyper text markup language.
+    HTML is the standard markup language for creating Web pages.
 
-It is used for creating web pages.
+## What is HTML?
 
-It describes the structure of web pages.
+* HTML stands for Hyper Text Markup Language
+* HTML is the standard markup language for creating Web pages
+* HTML describes the structure of a Web page
+* HTML consists of a series of elements
+* HTML elements tell the browser how to display the content
+* HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+___
+<br>
 
-It tells to the browser that how should the content should be displayed.
+## A Simple HTML Document :-
+<br>
 
-# Html Structure
+<img src="https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/wha/whats-stuff-top-html5-document/_jcr_content/main/hero_blog_block/image-res.img.jpg/1527709379553.jpg" width="600px"><br><br>
 
-```` code
+```javascript
+
+>>>>>>> b0f384896673e1b13d1af8e7fd15acc8d9829698
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,84 +30,73 @@ It tells to the browser that how should the content should be displayed.
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<h1>Hello World</h1>
+<p>Hey there!</p>
 
 </body>
 </html>
-````
 
+```
+<br>
 
+<img src="https://code2care.org/2015/html5-hello-world-example/images/HTML5%20Hello%20World%20Example%20Code%20Browser%20Output.PNG" width="500px"> <br><br>
 
-###  Lets see What does each tag means .
+### **Example Explaination :-**
 
-- !DOCTYPE html  :- It declares this is an html 5 document.
-- html tag :- It is a base element of an html page.
-- head tag :- it used to contains meta information.
-- title tag :- It tells that what should be the title for html web page.
-- body tag :- It is the main body which contains all the other tags that will be used to display contents.
-- h1 tag :- It is a heading tag used to create heading.
-- p tag :- It is a paragraph tag used to write the content of the page.
+* The <!DOCTYPE html> declaration defines that this document is an HTML5 document.
+* The (html) element is the root element of an HTML page.
+* The (head) element contains meta information about the HTML page.
+* The (title) tag element specifies a title for the HTML page.
+* The (body) tag element defines the document's body, and is a container for all the visible contents, such as headingsparagraphs, images, hyperlinks, tables, lists, etc.
+* The (h1) tag element defines a large heading.
+* The (p) tag element defines a paragraph.
+___
+<br>
 
-### HTML Page Structure
+## What is an HTML Element?
 
-![](https://i.imgur.com/6pSdFt3.png)
+    An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. An element in HTML usually consist of a start tag <tag name>, close tag </tag name> and content inserted between them. Technically, an element is a collection of start tag, attributes, end tag, content between them.
 
+Such as:
 
+```javascript
 
-# HTML Headings
+<tagname>Content goes here...</tagname>
 
-There are 6 types of headings , h1 to h6 tag.
+```
+    The HTML element is everything from the start tag to the end tag:
 
-h1 tag defines the most important heading and as the size decreases the importance of that heading decreases.
+```javascript
 
-```` code
-<h1> Heading 1 </h1>
-<h2> Heading 2 </h2>
-<h3> Heading 3 </h3>
-<h4> Heading 4 </h4>
-<h5> Heading 5 </h5>
-<h6> Heading 6 </h6>
-````
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
+```
+___
 
+## Web Browsers :-
 
-# HTML Paragraphs
+The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
 
-Its is used to write content.
+A browser does not display the HTML tags, but uses them to determine how to display the document:
 
-```` html
-<p>
-    In this We can write the content
-</p>
-````
+<br>
+<img src="https://docs.microsoft.com/en-us/visualstudio/ide/media/vs-2019/
+csharp-aspnet-index-page-hello-world.png?view=vs-2019" width="500px">
+<hr>
+<br>
 
+## HTML Page Structure :-
 
+<br>
+<img src="https://walkintopc.com/wp-content/uploads/2020/05/HTML-Page-Structure.png" width="500px"> 
 
-# HTML Links
+<hr>
+<br>
 
-anchor tag is used to add links in an html document.
+## History of HTML :-
+<br>
 
-```` html
-<a href="link of website">This is a link</a>
-````
+    In the late 1980's , a physicist, Tim Berners-Lee who was a contractor at CERN, proposed a system for CERN researchers. In 1989, he wrote a memo proposing an internet based hypertext system.
 
-This is how we can add links in an html document.
-
-href attribute is used to add the link of the website.
-
-
-
-# HTML Images
-
-Images are added using img tag.
-
-```` html
-<img src="add image here" alt="W3Schools.com">
-````
-
-This is an img tag, src stands for source file and alt stands for alternative text that is used when image src is unavailable.
-
-
-
-These were some basic tags that are frequently used in the HTML document.
+    Tim Berners-Lee is known as the father of HTML. The first available description of HTML was a document called "HTML Tags" proposed by Tim in late 1991. The latest version of HTML is HTML5, which we will learn later in this tutorial.
