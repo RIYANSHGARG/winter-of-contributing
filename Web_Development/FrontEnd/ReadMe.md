@@ -11,11 +11,11 @@
 
 ## 1️⃣ HTML
 
-- Introduction to HTML
+- [Introduction to HTML](./Introduction_to_Html)
 - HTML Editors
 - HTML Text Formatting
 - HTML Style Attribute
-- HTML Links and Images
+- [HTML Links and Images](Html_Anchor_img_tag.md)
 - [HTML Tables](./HTML_Tables)
 - HTML Lists
 - HTML Classes and IDs
